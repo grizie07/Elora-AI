@@ -1,0 +1,173 @@
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import api from "../api/axios";
+import { useAuth } from "../context/AuthContext";
+
+const cardStyle = {
+  background: "#fff",
+  borderRadius: "12px",
+  padding: "18px",
+  boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+};
+
+const AdminHomePage = () => {
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
+
+  const [dashboard, setDashboard] = useState(null);
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchDashboard = async () => {
+      try {
+        const response = await api.get("/dashboard/admin", {
+          headers: {
+            Authorization: `Bearer ${user.token}`,
+          },
+        });
+        setDashboard(response.data.data);
+      } catch (err) {
+        setError(err.response?.data?.message || "Failed to load admin dashboard");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (user?.token) {
+      fetchDashboard();
+    }
+  }, [user]);
+
+  const handleLogout = () => {
+    logout();
+    navigate("/login");
+  };
+
+  if (loading) {
+    return <div style={{ padding: "24px" }}>Loading admin dashboard...</div>;
+  }
+
+  if (error) {
+    return <div style={{ padding: "24px", color: "red" }}>{error}</div>;
+  }
+
+  return (
+    <div style={{ padding: "24px", background: "#f5f7fb", minHeight: "100vh" }}>
+      <div
+        style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
+          display: "grid",
+          gap: "20px",
+        }}
+      >
+        <div style={cardStyle}>
+          <h1>Admin Dashboard</h1>
+          <p style={{ marginTop: "10px" }}>Welcome, {user?.name}</p>
+          <p style={{ marginTop: "6px" }}>Role: {user?.role}</p>
+          <button onClick={handleLogout} style={{ marginTop: "14px" }}>
+            Logout
+          </button>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gap: "16px",
+          }}
+        >
+          <div style={cardStyle}>
+            <h3>Total Users</h3>
+            <p style={{ marginTop: "10px", fontSize: "24px", fontWeight: "bold" }}>
+              {dashboard?.summary?.totalUsers || 0}
+            </p>
+          </div>
+
+          <div style={cardStyle}>
+            <h3>Total Students</h3>
+            <p style={{ marginTop: "10px", fontSize: "24px", fontWeight: "bold" }}>
+              {dashboard?.summary?.totalStudents || 0}
+            </p>
+          </div>
+
+          <div style={cardStyle}>
+            <h3>Total Admins</h3>
+            <p style={{ marginTop: "10px", fontSize: "24px", fontWeight: "bold" }}>
+              {dashboard?.summary?.totalAdmins || 0}
+            </p>
+          </div>
+
+          <div style={cardStyle}>
+            <h3>Total Quizzes</h3>
+            <p style={{ marginTop: "10px", fontSize: "24px", fontWeight: "bold" }}>
+              {dashboard?.summary?.totalQuizzes || 0}
+            </p>
+          </div>
+
+          <div style={cardStyle}>
+            <h3>Total Quiz Attempts</h3>
+            <p style={{ marginTop: "10px", fontSize: "24px", fontWeight: "bold" }}>
+              {dashboard?.summary?.totalQuizAttempts || 0}
+            </p>
+          </div>
+
+          <div style={cardStyle}>
+            <h3>Total Recommendations</h3>
+            <p style={{ marginTop: "10px", fontSize: "24px", fontWeight: "bold" }}>
+              {dashboard?.summary?.totalRecommendations || 0}
+            </p>
+          </div>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+            gap: "16px",
+          }}
+        >
+          <div style={cardStyle}>
+            <h2>Recent Users</h2>
+            {dashboard?.recentUsers?.length ? (
+              dashboard.recentUsers.map((item) => (
+                <div
+                  key={item._id}
+                  style={{ marginTop: "12px", paddingBottom: "10px", borderBottom: "1px solid #eee" }}
+                >
+                  <p><strong>{item.name}</strong></p>
+                  <p>{item.email}</p>
+                  <p>Role: {item.role}</p>
+                </div>
+              ))
+            ) : (
+              <p style={{ marginTop: "10px" }}>No users found.</p>
+            )}
+          </div>
+
+          <div style={cardStyle}>
+            <h2>Recent Quiz Attempts</h2>
+            {dashboard?.recentQuizAttempts?.length ? (
+              dashboard.recentQuizAttempts.map((item) => (
+                <div
+                  key={item._id}
+                  style={{ marginTop: "12px", paddingBottom: "10px", borderBottom: "1px solid #eee" }}
+                >
+                  <p><strong>{item.quizId?.title || "Untitled Quiz"}</strong></p>
+                  <p>User: {item.userId?.name || "Unknown"}</p>
+                  <p>Score: {item.score}/{item.totalQuestions}</p>
+                  <p>Accuracy: {item.accuracy?.toFixed(2)}%</p>
+                </div>
+              ))
+            ) : (
+              <p style={{ marginTop: "10px" }}>No quiz attempts found.</p>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AdminHomePage;
