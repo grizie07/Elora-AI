@@ -75,7 +75,8 @@ export const createQuiz = asyncHandler(async (req, res) => {
 });
 
 export const getQuizById = asyncHandler(async (req, res) => {
-  const quiz = await Quiz.findById(req.params.id).populate("questionIds");
+  // Exclude correctAnswer so it is never sent to the client (security fix)
+  const quiz = await Quiz.findById(req.params.id).populate("questionIds", "-correctAnswer");
 
   if (!quiz) {
     throw new AppError("Quiz not found", 404);
@@ -90,13 +91,29 @@ export const getQuizById = asyncHandler(async (req, res) => {
 export const submitQuizAttempt = asyncHandler(async (req, res) => {
   const { quizId, answers, totalTimeSeconds } = req.body;
 
-  const totalQuestions = answers.length;
-  const score = answers.filter((a) => a.isCorrect).length;
+  // Re-derive correctAnswer and isCorrect server-side — never trust the client
+  const questionIds = answers.map((a) => a.questionId);
+  const questions = await Question.find({ _id: { $in: questionIds } }).select(
+    "_id correctAnswer"
+  );
+  const correctAnswerMap = {};
+  for (const q of questions) {
+    correctAnswerMap[q._id.toString()] = q.correctAnswer;
+  }
+
+  const resolvedAnswers = answers.map((a) => {
+    const correctAnswer = correctAnswerMap[a.questionId] || "";
+    const isCorrect = a.selectedAnswer.trim() === correctAnswer.trim();
+    return { ...a, correctAnswer, isCorrect };
+  });
+
+  const totalQuestions = resolvedAnswers.length;
+  const score = resolvedAnswers.filter((a) => a.isCorrect).length;
   const accuracy = totalQuestions > 0 ? (score / totalQuestions) * 100 : 0;
 
   const progressResult = await updateTopicProgressFromAttempt(
     req.user._id,
-    answers
+    resolvedAnswers
   );
 
   const attempt = await QuizAttempt.create({
@@ -106,12 +123,12 @@ export const submitQuizAttempt = asyncHandler(async (req, res) => {
     totalQuestions,
     accuracy,
     totalTimeSeconds,
-    answers,
+    answers: resolvedAnswers,
     weakTopicsDetected: progressResult.weakTopicsDetected,
     strongTopicsDetected: progressResult.strongTopicsDetected,
   });
 
-  const firstSubject = answers[0]?.subject || "";
+  const firstSubject = resolvedAnswers[0]?.subject || "";
 
   const recommendations = await generateRecommendationsFromWeakTopics(
     req.user._id,

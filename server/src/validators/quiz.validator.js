@@ -77,9 +77,10 @@ export const questionAttemptSchema = z.object({
 
   selectedAnswer: z.string().trim().optional().default(""),
 
+  // correctAnswer and isCorrect are now derived server-side; kept optional for schema compatibility
   correctAnswer: z.string().trim().optional().default(""),
 
-  isCorrect: z.boolean(),
+  isCorrect: z.boolean().optional().default(false),
 
   subject: z.string().trim().min(1, "subject is required"),
 

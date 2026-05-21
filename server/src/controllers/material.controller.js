@@ -1,7 +1,32 @@
 import fs from "fs";
+import path from "path";
 import Material from "../models/Material.js";
 import asyncHandler from "../utils/asyncHandler.js";
 import AppError from "../utils/AppError.js";
+
+// Helper — calls the AI ingestion service with an absolute file path
+const callIngestService = async (material) => {
+  const absolutePath = path.resolve(material.filePath);
+  const response = await fetch(`${process.env.AI_SERVICE_URL}/materials/ingest`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      materialId: material._id.toString(),
+      filePath: absolutePath,
+      title: material.title,
+      subject: material.subject,
+      chapter: material.chapter,
+      topic: material.topic,
+    }),
+  });
+
+  if (!response.ok) {
+    const errBody = await response.text();
+    throw new Error(`AI service error ${response.status}: ${errBody}`);
+  }
+
+  return response.json();
+};
 
 export const uploadMaterial = asyncHandler(async (req, res) => {
   if (!req.file) {
@@ -27,27 +52,7 @@ export const uploadMaterial = asyncHandler(async (req, res) => {
   let ingestionResponse = null;
 
   try {
-    const response = await fetch(`${process.env.AI_SERVICE_URL}/materials/ingest`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        materialId: material._id.toString(),
-        filePath: material.filePath,
-        title: material.title,
-        subject: material.subject,
-        chapter: material.chapter,
-        topic: material.topic,
-      }),
-    });
-
-    if (!response.ok) {
-      throw new Error(`AI service responded with status ${response.status}`);
-    }
-
-    ingestionResponse = await response.json();
-
+    ingestionResponse = await callIngestService(material);
     material.processingStatus = "processed";
     await material.save();
   } catch (error) {
@@ -58,12 +63,48 @@ export const uploadMaterial = asyncHandler(async (req, res) => {
   return res.status(201).json({
     success: true,
     message: "Material uploaded successfully",
-    data: {
-      material,
-      ingestionResponse,
-    },
+    data: { material, ingestionResponse },
   });
 });
+
+// Re-process a previously failed material
+export const reprocessMaterial = asyncHandler(async (req, res) => {
+  const material = await Material.findOne({
+    _id: req.params.id,
+    userId: req.user._id,
+  });
+
+  if (!material) {
+    throw new AppError("Material not found", 404);
+  }
+
+  const absolutePath = path.resolve(material.filePath);
+  if (!fs.existsSync(absolutePath)) {
+    throw new AppError("File no longer exists on disk — please re-upload", 404);
+  }
+
+  material.processingStatus = "pending";
+  await material.save();
+
+  let ingestionResponse = null;
+  try {
+    ingestionResponse = await callIngestService(material);
+    material.processingStatus = "processed";
+    await material.save();
+  } catch (error) {
+    material.processingStatus = "failed";
+    await material.save();
+    throw new AppError(`Ingestion failed: ${error.message}`, 500);
+  }
+
+  return res.status(200).json({
+    success: true,
+    message: "Material reprocessed successfully",
+    data: { material, ingestionResponse },
+  });
+});
+
+
 
 export const getMyMaterials = asyncHandler(async (req, res) => {
   const materials = await Material.find({ userId: req.user._id }).sort({

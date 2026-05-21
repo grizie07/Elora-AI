@@ -16,12 +16,11 @@ export const updateTopicProgressFromAttempt = async (userId, answers) => {
   const grouped = {};
 
   for (const answer of answers) {
-    const key = `${answer.subject}__${answer.chapter}__${answer.topic}__${answer.subtopic}`;
+    const key = `${answer.subject}__${answer.topic}__${answer.subtopic}`;
 
     if (!grouped[key]) {
       grouped[key] = {
         subject: answer.subject,
-        chapter: answer.chapter || "",
         topic: answer.topic,
         subtopic: answer.subtopic || "",
         total: 0,
@@ -53,7 +52,6 @@ export const updateTopicProgressFromAttempt = async (userId, answers) => {
     const existing = await TopicProgress.findOne({
       userId,
       subject: item.subject,
-      chapter: item.chapter,
       topic: item.topic,
       subtopic: item.subtopic,
     });
@@ -64,7 +62,6 @@ export const updateTopicProgressFromAttempt = async (userId, answers) => {
       await TopicProgress.create({
         userId,
         subject: item.subject,
-        chapter: item.chapter,
         topic: item.topic,
         subtopic: item.subtopic,
         masteryScore: currentAccuracy,

@@ -10,6 +10,9 @@ import quizRoutes from "./routes/quiz.routes.js";
 import dashboardRoutes from "./routes/dashboard.routes.js";
 import materialRoutes from "./routes/material.routes.js";
 import chatRoutes from "./routes/chat.routes.js";
+import flashcardRoutes from "./routes/flashcard.routes.js";
+import plannerRoutes from "./routes/planner.routes.js";
+import analyticsRoutes from "./routes/analytics.routes.js";
 
 import { notFoundHandler, errorHandler } from "./middleware/error.middleware.js";
 
@@ -55,6 +58,9 @@ app.use("/api/quizzes", quizRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/materials", materialRoutes);
 app.use("/api/chats", chatRoutes);
+app.use("/api/flashcards", flashcardRoutes);
+app.use("/api/planner", plannerRoutes);
+app.use("/api/analytics", analyticsRoutes);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
