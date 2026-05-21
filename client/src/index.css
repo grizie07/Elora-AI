@@ -1,16 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0D1117;
+  --color-surface: #161B27;
+  --color-sidebar: #111827;
+  --color-border: rgba(255,255,255,0.06);
+  --color-input-bg: #1C2333;
+  --color-input-border: #2D3748;
+  --color-text: #fff;
+  --color-muted: #9CA3AF;
+  --color-subtle: #6B7280;
+  --color-faint: #4B5563;
+  --scrollbar-thumb: #2D3748;
+}
+
+html[data-theme="light"] {
+  --color-bg: #F1F5F9;
+  --color-surface: #FFFFFF;
+  --color-sidebar: #F8FAFC;
+  --color-border: rgba(0,0,0,0.08);
+  --color-input-bg: #F8FAFC;
+  --color-input-border: #CBD5E1;
+  --color-text: #0F172A;
+  --color-muted: #475569;
+  --color-subtle: #64748B;
+  --color-faint: #94A3B8;
+  --scrollbar-thumb: #CBD5E1;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background: #f7f7f7;
-  color: #222;
+html, body, #root {
+  height: 100%;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s, color 0.25s;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+
+a { text-decoration: none; color: inherit; }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-faint); }
+
+/* Global input/textarea/select reset for dark theme */
+input, textarea, select {
+  background: var(--color-input-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-input-border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, background 0.25s, color 0.25s;
 }
+
+input:focus, textarea:focus, select:focus {
+  border-color: #6366F1;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--color-faint);
+}
+
+select option { background: var(--color-input-bg); color: var(--color-text); }
+
+button {
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Elora card base */
+.elora-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #6366F1, #A855F7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effect */
+.glow-accent {
+  box-shadow: 0 0 20px rgba(99,102,241,0.3);
+}
+
+/* Pulse animation */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Fade in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in { animation: fadeIn 0.3s ease-out; }

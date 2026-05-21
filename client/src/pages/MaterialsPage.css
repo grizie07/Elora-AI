@@ -1,0 +1,35 @@
+.material-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-box {
+  border: 2px dashed #334155;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.material-list {
+  margin-top: 20px;
+}
+
+.material-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #334155;
+}
+
+.material-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-actions button {
+  margin-left: 10px;
+}

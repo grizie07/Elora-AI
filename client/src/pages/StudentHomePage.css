@@ -1,0 +1,49 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sub-text {
+  color: #94A3B8;
+  margin-top: 6px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.stat-card p {
+  color: #94A3B8;
+  font-size: 14px;
+}
+
+.stat-card h2 {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.topic-item {
+  border-bottom: 1px solid #334155;
+  padding: 10px 0;
+}

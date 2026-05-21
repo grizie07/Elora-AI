@@ -17,6 +17,11 @@ import ProtectedRoute from "../components/common/ProtectedRoute";
 import ChatsPage from "../pages/ChatsPage";
 import CreateChatPage from "../pages/CreateChatPage";
 import ChatPage from "../pages/ChatPage";
+import Settings from "../pages/Settings";
+import AnalyticsPage from "../pages/AnalyticsPage";
+import FlashcardsPage from "../pages/FlashcardsPage";
+import PlannerPage from "../pages/PlannerPage";
+
 
 const AppRouter = () => {
   return (
@@ -65,7 +70,7 @@ const AppRouter = () => {
         <Route
           path="/questions/create"
           element={
-            <ProtectedRoute allowedRoles={["student"]}>
+            <ProtectedRoute allowedRoles={["admin", "student"]}>
               <CreateQuestionPage />
             </ProtectedRoute>
           }
@@ -74,7 +79,7 @@ const AppRouter = () => {
         <Route
           path="/quizzes/create"
           element={
-            <ProtectedRoute allowedRoles={["student"]}>
+            <ProtectedRoute allowedRoles={["admin", "student"]}>
               <CreateQuizPage />
             </ProtectedRoute>
           }
@@ -90,7 +95,7 @@ const AppRouter = () => {
         />
 
         <Route
-          path="/quizzes/result"
+          path="/quizzes/results/:attemptId"
           element={
             <ProtectedRoute allowedRoles={["student"]}>
               <QuizResultPage />
@@ -139,6 +144,42 @@ const AppRouter = () => {
           element={
             <ProtectedRoute allowedRoles={["student"]}>
               <ChatPage />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/analytics"
+          element={
+            <ProtectedRoute allowedRoles={["student", "admin"]}>
+              <AnalyticsPage />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/settings"
+          element={
+            <ProtectedRoute allowedRoles={["student", "admin"]}>
+              <Settings />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/flashcards"
+          element={
+            <ProtectedRoute allowedRoles={["student"]}>
+              <FlashcardsPage />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/planner"
+          element={
+            <ProtectedRoute allowedRoles={["student"]}>
+              <PlannerPage />
             </ProtectedRoute>
           }
         />
