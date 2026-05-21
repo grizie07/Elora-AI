@@ -1,0 +1,109 @@
+{
+  "materialId": "69e134a0380d70a414868fcc",
+  "title": "Merge Sort",
+  "subject": "Operating systems",
+  "chapter": "Chapter 4",
+  "topic": "Merge Sort",
+  "sourcePath": "C:\\Users\\brase\\OneDrive\\Desktop\\AI-StudyAssistant\\server\\uploads\\Merge_Sort_Detailed_Notes-1776366752035-873195349.pdf",
+  "textLength": 13606,
+  "chunkCount": 24,
+  "chunks": [
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_1",
+      "text": "Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs -"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_2",
+      "text": "o understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_3",
+      "text": "a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_4",
+      "text": "many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the me"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_5",
+      "text": "ta Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Be"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_6",
+      "text": "ed in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to o"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_7",
+      "text": "s used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Cas"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_8",
+      "text": "tages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manag"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_9",
+      "text": "ional problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case:"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_10",
+      "text": "ge inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_11",
+      "text": "Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity De"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_12",
+      "text": "ies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of M"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_13",
+      "text": "rs to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, ge"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_14",
+      "text": "plexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_15",
+      "text": "re used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applic"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_16",
+      "text": "Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_17",
+      "text": "s, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sortin"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_18",
+      "text": "Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern de"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_19",
+      "text": "ely. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_20",
+      "text": "omplexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algor"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_21",
+      "text": "working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Que"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_22",
+      "text": "entation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews. Introduction Merge Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Merge Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Merge Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Pr"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_23",
+      "text": "ves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Merge Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort"
+    },
+    {
+      "chunkId": "69e134a0380d70a414868fcc_chunk_24",
+      "text": "O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Merge Sort - What is its complexity? - When to use it? Conclusion Merge Sort is essential for mastering problem solving and technical interviews."
+    }
+  ],
+  "processedAt": "2026-04-16T19:12:32.732655Z"
+}

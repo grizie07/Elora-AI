@@ -1,0 +1,109 @@
+{
+  "materialId": "69e1e949d29b49ca59f53441",
+  "title": "Selection Sort",
+  "subject": "DSA - new",
+  "chapter": "chapter 1",
+  "topic": "Selection sort",
+  "sourcePath": "C:\\Users\\brase\\OneDrive\\Desktop\\AI-StudyAssistant\\server\\uploads\\Selection_Sort_Detailed_Notes-1776413001119-445370724.pdf",
+  "textLength": 13894,
+  "chunkCount": 24,
+  "chunks": [
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_1",
+      "text": "Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_2",
+      "text": "antages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational probl"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_3",
+      "text": "roduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for la"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_4",
+      "text": "ages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_5",
+      "text": "uction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_6",
+      "text": "s - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems ef"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_7",
+      "text": "ion Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large in"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_8",
+      "text": "Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems effic"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_9",
+      "text": "Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large input"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_10",
+      "text": "sy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficien"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_11",
+      "text": "lection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs -"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_12",
+      "text": "to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_13",
+      "text": "tion Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Pe"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_14",
+      "text": "understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. D"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_15",
+      "text": "n Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Perfo"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_16",
+      "text": "erstand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Defi"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_17",
+      "text": "ort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performa"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_18",
+      "text": "tand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definit"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_19",
+      "text": "is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_20",
+      "text": "d - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_21",
+      "text": "a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance va"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_22",
+      "text": "Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews. Introduction Selection Sort is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Se"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_23",
+      "text": "fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Selection Sort refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Selection Sort involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Selection Sort helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varie"
+    },
+    {
+      "chunkId": "69e1e949d29b49ca59f53441_chunk_24",
+      "text": "ficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Selection Sort - What is its complexity? - When to use it? Conclusion Selection Sort is essential for mastering problem solving and technical interviews."
+    }
+  ],
+  "processedAt": "2026-04-17T08:03:21.776483Z"
+}

@@ -62,7 +62,10 @@ def chunk_text(text: str, chunk_size: int = 700, overlap: int = 120):
         if end == text_length:
             break
 
-        start = max(end - overlap, 0)
+        new_start = end - overlap
+        if new_start <= start:
+            break
+        start = new_start
 
     return chunks
 

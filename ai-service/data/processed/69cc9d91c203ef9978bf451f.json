@@ -1,0 +1,61 @@
+{
+  "materialId": "69cc9d91c203ef9978bf451f",
+  "title": "gases",
+  "subject": "chemistry",
+  "chapter": "gases",
+  "topic": "",
+  "sourcePath": "C:\\Users\\brase\\OneDrive\\Desktop\\AI-StudyAssistant\\server\\uploads\\Gases-1775017361694-855252482.pdf",
+  "textLength": 6898,
+  "chunkCount": 12,
+  "chunks": [
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_1",
+      "text": "Gases MODULE 5 CHE 305 Chemistry Gases Characteristics of Gases • Unlike liquids and solids, gases – expand to fill their containers; – are highly compressible; – have extremely low densities. Gases • Pressure is the amount of force applied to an area. Pressure • Atmospheric pressure is the weight of air per unit of area. P = F A Gases Units of Pressure • Pascals – 1 Pa = 1 N/m2 • Bar – 1 bar = 105 Pa = 100 kPa Gases Units of Pressure • mm Hg or torr –These units are literally the difference in the heights measured in mm (h) of two connected columns of mercury. • Atmosphere 1.00 atm = 760 torr Gases Manometer This device is used to measure the difference in pressure between atmospheric press"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_2",
+      "text": "1.00 atm = 760 torr Gases Manometer This device is used to measure the difference in pressure between atmospheric pressure and that of a gas in a vessel. Gases Standard Pressure • Normal atmospheric pressure at sea level is referred to as standard pressure. • It is equal to –1.00 atm –760 torr (760 mm Hg) –101.325 kPa Gases Boyle’s Law The volume of a fixed quantity of gas at constant temperature is inversely proportional to the pressure. Gases As P and V are inversely proportional A plot of V versus P results in a curve. Since V = k (1/P) This means a plot of V versus 1/P will be a straight line. PV = k Gases Charles’s Law • The volume of a fixed amount of gas at constant pressure is direc"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_3",
+      "text": "will be a straight line. PV = k Gases Charles’s Law • The volume of a fixed amount of gas at constant pressure is directly proportional to its absolute temperature. A plot of V versus T will be a straight line. • i.e., V T = k Gases Avogadro’s Law • The volume of a gas at constant temperature and pressure is directly proportional to the number of moles of the gas. • Mathematically, this means V = kn Gases Ideal-Gas Equation V ∝ 1/P (Boyle’s law) V ∝ T (Charles’s law) V ∝ n (Avogadro’s law) • So far we’ve seen that • Combining these, we get V ∝ nT P Gases Ideal-Gas Equation The constant of proportionality is known as R, the gas constant. Gases Ideal-Gas Equation The relationship then becomes"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_4",
+      "text": "The constant of proportionality is known as R, the gas constant. Gases Ideal-Gas Equation The relationship then becomes nT P V ∝ nT P V = R or PV = nRT Gases Densities of Gases If we divide both sides of the ideal-gas equation by V and by RT, we get n V P RT = Gases • We know that –moles × molecular mass = mass Densities of Gases • So multiplying both sides by the molecular mass (Μ ) gives n × Μ = m PΜ RT m V = Gases Densities of Gases • Mass ÷ volume = density • So, Note: One only needs to know the molecular mass, the pressure, and the temperature to calculate the density of a gas. PΜ RT m V =d = Gases Molecular Mass We can manipulate the density equation to enable us to find the molecular"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_5",
+      "text": "of a gas. PΜ RT m V =d = Gases Molecular Mass We can manipulate the density equation to enable us to find the molecular mass of a gas: Becomes PΜ RT d = dRT P Μ = Gases Dalton’s Law of Partial Pressures • The total pressure of a mixture of gases equals the sum of the pressures that each would exert if it were present alone. • In other words, Ptotal = P1 + P2 + P3 + … Gases Partial Pressures • When one collects a gas over water, there is water vapor mixed in with the gas. • To find only the pressure of the desired gas, one must subtract the vapor pressure of water from the total pressure. Gases Kinetic-Molecular Theory This is a model that aids in our understanding of what happens to gas par"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_6",
+      "text": "total pressure. Gases Kinetic-Molecular Theory This is a model that aids in our understanding of what happens to gas particles as environmental conditions change. Gases Main Tenets of Kinetic-Molecular Theory Gases consist of large numbers of molecules that are in continuous, random motion. Gases Main Tenets of Kinetic-Molecular Theory The combined volume of all the molecules of the gas is negligible relative to the total volume in which the gas is contained. Gases Main Tenets of Kinetic-Molecular Theory Attractive and repulsive forces between gas molecules are negligible. Gases Main Tenets of Kinetic-Molecular Theory Energy can be transferred between molecules during collisions, but the ave"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_7",
+      "text": "Gases Main Tenets of Kinetic-Molecular Theory Energy can be transferred between molecules during collisions, but the average kinetic energy of the molecules does not change with time, as long as the temperature of the gas remains constant. Gases Main Tenets of Kinetic-Molecular Theory The average kinetic energy of the molecules is proportional to the absolute temperature. Gases Effusion Effusion is the escape of gas molecules through a tiny hole into an evacuated space. Gases Effusion The difference in the rates of effusion for helium and nitrogen, for example, explains a helium balloon would deflate faster. Gases Diffusion Diffusion is the spread of one substance throughout a space or throu"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_8",
+      "text": "elium balloon would deflate faster. Gases Diffusion Diffusion is the spread of one substance throughout a space or throughout a second substance. Gases In general, we know that when a sample of gas is introduced to one part of a closed container, its molecules very quickly disperse throughout the container; this process by which molecules disperse in space in response to differences in concentration is called diffusion The diffusion of gases allows the spread of the smell of a lot of things quickly. The smell of food, perfume, and fragrance of the incense stick diffuses in air. Diffusion Gases Real Gases In the real world, the behavior of gases only conforms to the ideal-gas equation at rela"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_9",
+      "text": "air. Diffusion Gases Real Gases In the real world, the behavior of gases only conforms to the ideal-gas equation at relatively high temperature and low pressure. Gases Real Gases Even the same gas will show wildly different behavior under high pressure at different temperatures. Gases Deviations from Ideal Behavior The assumptions made in the kinetic-molecular model (negligible volume of gas molecules themselves, no attractive forces between gas molecules, etc.) break down at high pressure and/or low temperature. Gases Corrections for Nonideal Behavior • The ideal-gas equation can be adjusted to take these deviations from ideal behavior into account. • The corrected ideal-gas equation is kno"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_10",
+      "text": "ion can be adjusted to take these deviations from ideal behavior into account. • The corrected ideal-gas equation is known as the van der Waals equation. Gases The van der Waals Equation ) (V − nb) = nRT n2a V2(P + Gases Characteristics Of Gas •Compressible The gas molecules have a lot of distance between each other that makes them compressible as they can move freely. •Expandable The gaseous state is also expandable because the free movement of gas molecules enables them to take over any shape on the basis of the container they are in, filling the volume of the container. Gases Low Density They are a matter of lower density as compared to other states of matter, i.e. solids and liquids. The"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_11",
+      "text": "Gases Low Density They are a matter of lower density as compared to other states of matter, i.e. solids and liquids. The low density is the reason behind gas particles move randomly and quickly against each other without any steady position. Since there is too much distance between the molecules their collision does not meddle with their movement. The low density of gas also offers fluidity to this matter. Gases Diffusive As said above, there is a huge distance between gas particles. Thus, two or more gases can combine easily and quickly, which is called the diffusion process. This combination creates a homogeneous mixture. No Volume and Shape The gaseous state neither has a fixed volume nor"
+    },
+    {
+      "chunkId": "69cc9d91c203ef9978bf451f_chunk_12",
+      "text": "ss. This combination creates a homogeneous mixture. No Volume and Shape The gaseous state neither has a fixed volume nor a fixed shape. It means that gas has no structure. The countless collisions of the molecules on the container walls result in the gaseous pressure. Thus, the shape and volume of a gas state both depend on the container holding it."
+    }
+  ],
+  "processedAt": "2026-04-16T16:53:41.487972Z"
+}

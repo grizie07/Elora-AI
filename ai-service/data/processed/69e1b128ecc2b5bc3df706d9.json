@@ -1,0 +1,17 @@
+{
+  "materialId": "69e1b128ecc2b5bc3df706d9",
+  "title": "OS Ch 3",
+  "subject": "OS",
+  "chapter": "chapter 1",
+  "topic": "process scheduling",
+  "sourcePath": "C:\\Users\\brase\\OneDrive\\Desktop\\AI-StudyAssistant\\server\\uploads\\OS_Process_Scheduling_Notes-1776398632352-431416734.pdf",
+  "textLength": 691,
+  "chunkCount": 1,
+  "chunks": [
+    {
+      "chunkId": "69e1b128ecc2b5bc3df706d9_chunk_1",
+      "text": "Operating Systems - Process Scheduling Notes Introduction: Process scheduling is a fundamental OS function that decides which process runs at a given time. Types of Scheduling: Long-term, Short-term, and Medium-term scheduling. Scheduling Algorithms: FCFS, SJF, Round Robin, Priority Scheduling. FCFS: First Come First Serve, simple but can cause long waiting times. SJF: Shortest Job First, optimal but hard to predict burst time. Round Robin: Time-sharing system using time quantum. Priority Scheduling: Processes are scheduled based on priority. Key Concepts: Waiting time, Turnaround time, Response time. Conclusion: Efficient scheduling improves CPU utilization and system performance."
+    }
+  ],
+  "processedAt": "2026-04-17T04:03:52.640893Z"
+}

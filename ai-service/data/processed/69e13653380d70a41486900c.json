@@ -1,0 +1,109 @@
+{
+  "materialId": "69e13653380d70a41486900c",
+  "title": "Binary search",
+  "subject": "DSA",
+  "chapter": "Chapter 6",
+  "topic": "Binary search",
+  "sourcePath": "C:\\Users\\brase\\OneDrive\\Desktop\\AI-StudyAssistant\\server\\uploads\\Binary_Search_Detailed_Notes-1776367187366-591144173.pdf",
+  "textLength": 13822,
+  "chunkCount": 24,
+  "chunks": [
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_1",
+      "text": "Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for lar"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_2",
+      "text": "ges - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems eff"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_3",
+      "text": "ion Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_4",
+      "text": "y to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently."
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_5",
+      "text": "y Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Perfor"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_6",
+      "text": "rstand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definiti"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_7",
+      "text": "is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance var"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_8",
+      "text": "Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_9",
+      "text": "amental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_10",
+      "text": "in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search r"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_11",
+      "text": "oncept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_12",
+      "text": "scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_13",
+      "text": "Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Com"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_14",
+      "text": "- Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the metho"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_15",
+      "text": "uctures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity -"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_16",
+      "text": "used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or stru"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_17",
+      "text": "nd Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Cas"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_18",
+      "text": "applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure use"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_19",
+      "text": "thms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) -"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_20",
+      "text": "ons Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to orga"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_21",
+      "text": "for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_22",
+      "text": "vantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews. Introduction Binary Search is a fundamental concept in Data Structures and Algorithms used for solving computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, pro"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_23",
+      "text": "ing computational problems efficiently. Definition Binary Search refers to the method or structure used to organize, process, and manage data effectively. Working Principle The working of Binary Search involves step-by-step execution following a defined logic or pattern depending on the input. Algorithm / Steps 1. Start 2. Process input 3. Apply logic 4. Return output 5. End Example A simple example of Binary Search helps in understanding its behavior with real inputs. Advantages - Easy to understand - Efficient in many scenarios - Widely used in applications Disadvantages - May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n"
+    },
+    {
+      "chunkId": "69e13653380d70a41486900c_chunk_24",
+      "text": "- May be slow for large inputs - Performance varies based on input Time Complexity - Best Case: O(n) - Average Case: O(n log n) - Worst Case: O(n^2) Space Complexity Depends on implementation, generally O(1) or O(n) Applications - Searching - Sorting - Data processing - Real-world systems Interview Questions - Explain Binary Search - What is its complexity? - When to use it? Conclusion Binary Search is essential for mastering problem solving and technical interviews."
+    }
+  ],
+  "processedAt": "2026-04-16T19:19:47.446093Z"
+}
